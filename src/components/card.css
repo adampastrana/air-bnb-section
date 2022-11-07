@@ -1,0 +1,97 @@
+* {
+    font-family: 'Poppins';
+}
+section{
+    margin: 0;
+    padding:0px 25px;
+}
+.card {
+
+    display: flex;
+    flex-direction: column;
+    margin-top:50px;
+    margin-bottom:50px;
+    position: relative;
+    padding: 0;
+}
+.cardList {
+ 
+    display: flex;
+    margin-bottom: 20px;
+    justify-content:center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.card__image {
+    /* display: block; */     
+    
+  
+    width: 176px;
+    height: auto;
+    border-radius: 8px;
+
+    
+}
+.card__image-wrapper  {
+    width: 176px;
+    /* height: 235px; */
+    /* background: url('../assets/card-img.png') no-repeat top/cover; */
+    /* padding:6px; */
+    /* margin-bottom: 9px; */
+ 
+     
+}
+.card__image-wrapper p{
+    /* position: relative; */
+   
+    position: absolute;
+    top: 6px;
+    left: 6px; 
+    margin: 0;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
+}
+.card__img-text {
+    /* background-color: #FFFFFF;   */
+    text-transform: uppercase;
+    font-family: 'Poppins';
+    font-size: 11px;
+ 
+ 
+    }
+
+.star-icon {
+  
+    width: 14px;
+    height: 14px;
+    align-self: center;
+ 
+}
+.card__rate-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    position: relative;
+    /* margin-top: 50px; */
+   
+}
+
+.card__rate-details > p , .card__rate ,.card__title > p{
+   
+    display: flex;
+    margin: 3px;
+    align-self: center;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 110%;
+}
+.card__title > p, .card__rate {
+  
+    font-weight: 300;
+}
+ 
